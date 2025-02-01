@@ -13,13 +13,13 @@
             z-index: 1;
             background: rgba(255, 255, 255, 0.2);
             /* Transparent background */
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(20px);
             /* Blur effect */
             border-radius: 10px;
             /* Optional: rounded corners */
-            padding: 20px;
+            padding: 10px;
             /* Optional: padding inside the container */
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(244, 242, 242, 0.1);
             /* Optional: subtle shadow */
         }
 
@@ -34,6 +34,8 @@
 
 
         .inner-box {
+            background:Transparent;
+            backdrop-filter: Blur(20px);
             position: absolute;
             width: 100%;
             height: 100%;
@@ -119,8 +121,10 @@
                     <input type="file" name="profilepic" required>
                     <input type="password" name="password" placeholder="Password" required>
                     <button type="submit">Sign Up</button>
+                                       
                 </form>
                 <button type="button" onclick="openLogin()">Login</button>
+                
             </div>
         </div>
     </div>
