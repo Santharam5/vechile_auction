@@ -97,7 +97,25 @@ if ($conn->connect_error) {
                     " onmouseover="this.style.backgroundColor='#0056b3'; this.style.transform='scale(1.05)';"
                         onmouseout="this.style.backgroundColor='#007BFF'; this.style.transform='scale(1)';">
                         Login/Register
+                    </a></li>
+                     <li>
+                    <a href="http://localhost/Auction_System/admin/" style="
+                        display: inline-block;
+                        padding: 10px 20px;
+                        margin: 10px;
+                        font-size: 16px;
+                        font-weight: bold;
+                        color: white;
+                        background-color:rgb(255, 0, 0);
+                        border: none;
+                        border-radius: 5px;
+                        text-decoration: none;
+                        transition: background-color 0.3s ease, transform 0.3s ease;
+                    " onmouseover="this.style.backgroundColor='rgb(255, 0, 0)'; this.style.transform='scale(1.05)';"
+                        onmouseout="this.style.backgroundColor='rgb(255, 0, 0)'; this.style.transform='scale(1)';">
+                        AdminLogin
                     </a>
+                </li>
                 </li>
             </ul>
         </nav>
