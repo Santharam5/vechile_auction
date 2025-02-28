@@ -88,30 +88,24 @@ $profilePic = $user['profilepic'];
 <body>
     <header>
         <nav>
-            <div class="logo">AuctionPro</div>
+            <div class="logo">AuctionPlatform</div>
             <ul>
                 <li><a href="http://localhost/Auction_System/user_profile.php#home">Home</a></li>
                 <li><a href="http://localhost/Auction_System/user_profile_info.php">Profile</a></li>
+                <li><a href="http://localhost/Auction_System/search.php">Bid Menu</a></li>
                 <li><a href="http://localhost/Auction_System/user_bids.php">My bids</a></li>
                 <li><a href="http://localhost/Auction_System/logout.php">Logout</a></li>
             </ul>
         </nav>
     </header>
-    <div class="welcome-section">
-        <div class="profile-container">
-
-            <div class="welcome-message">Welcome, <?php echo $username; ?>!</div>
-            <iframe src="https://lottie.host/embed/02cbc03e-d8ad-4e58-af0d-49d7943c68ea/osDEC71fov.json"
-                class="welcome-iframe"></iframe>
-        </div>
-    </div>
+    
 
     
 
     <section id="bidding-page">
         <div class="vehicle-details">
             <img src="./camaro.jpg" alt="2015 Ford Mustang">
-            <h1>2019 Chevrolet Camaro/h1>
+            <h1>2019 Chevrolet Camaro</h1>
             <p>Current Bid: $30,000</p>
             <form id="bid-form" method="POST" action="place_bid.php">
                 <input type="hidden" name="email" value="<?php echo $email; ?>">
@@ -123,7 +117,7 @@ $profilePic = $user['profilepic'];
     </section>
 
     <footer>
-        <p>&copy; 2023 AuctionPro. All rights reserved.</p>
+        <p>&copy; 2025 AuctionPlatform. All rights reserved.</p>
     </footer>
 </body>
 
