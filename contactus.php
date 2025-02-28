@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - AuctionPro</title>
+    <title>Contact Us - AuctionPlatform</title>
     <script src="https://unpkg.com/scrollreveal"></script> <!-- Include ScrollReveal.js -->
     <style>
         body {
@@ -94,7 +94,7 @@
 </head>
 <body>
     <header>
-        <h1>Contact Us - AuctionPro</h1>
+        <h1>Contact Us - AuctionPlatform</h1>
     </header>
 
     <main>
@@ -114,9 +114,9 @@
 
         <section class="contact-details">
             <h2>Contact Information</h2>
-            <p>Email: contact@auctionpro.com</p>
+            <p>Email: contact@auctionplatform.com</p>
             <p>Phone: (123) 456-7890</p>
-            <p>Address: 123 Main Street, Anytown, USA</p>
+            <p>Address: 123 Main Street,Madurai,Tamilnadu,India</p>
         </section>
     </main>
 

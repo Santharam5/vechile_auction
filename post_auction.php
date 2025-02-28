@@ -74,7 +74,7 @@ $email = $_SESSION['email'];
     </main>
 
     <footer>
-        <p>&copy; 2023 Auction System. All rights reserved.</p>
+        <p>&copy; 2025 Auction System. All rights reserved.</p>
     </footer>
 
     <div class="notification" id="notification">Auction posted successfully!</div>

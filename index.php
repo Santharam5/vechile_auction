@@ -29,7 +29,7 @@ if ($conn->connect_error) {
 <body>
     <header>
         <nav>
-            <div class="logo">AuctionPro</div>
+            <div class="logo">AuctionPlatform</div>
             <ul>
                 <li><a href="#home" style="
                     display: inline-block;
@@ -210,7 +210,7 @@ if ($conn->connect_error) {
     </script>
 
     <footer>
-        <p>&copy; 2024 AuctionPro. All rights reserved.</p>
+        <p>&copy; 2025 AuctionPlatform. All rights reserved.</p>
     </footer>
 </body>
 

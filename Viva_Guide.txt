@@ -1,0 +1,70 @@
+GitHub Copilot
+
+
+General Questions
+Q1: What is the main functionality of your vehicle auction system?
+A1: The main functionality is to allow users to register, log in, place bids on vehicles, post new auctions, and manage their profiles and bids.
+
+Q2: How do you ensure that only authenticated users can place bids?
+A2: By using PHP sessions to check if a user is logged in before allowing them to access the bidding functionality.
+
+Specific Code Questions
+Q3: What does the confirmation.php file do?
+A3: It displays a confirmation message to the user after they have placed a bid and redirects them to their profile page after 5 seconds.
+
+Q4: How do you handle form data in place_bid.php?
+A4: Form data is retrieved using the $_POST superglobal, validated, and then inserted into the database using prepared statements.
+
+Q5: What is the purpose of the db_connection.php file?
+A5: It establishes a connection to the MySQL database using the mysqli class.
+
+Security Questions
+Q6: How do you prevent SQL injection in your project?
+A6: By using prepared statements with bound parameters for all database queries.
+
+Q7: How do you handle user passwords securely?
+A7: Passwords should be hashed before storing them in the database, although the provided code does not currently implement this.
+
+Functional Questions
+Q8: How does the user registration process work?
+A8: Users fill out a registration form, and the data is processed by register_handler.php, which inserts the user information into the database.
+
+Q9: How do you update a user's bid in update_bid.php?
+A9: The bid amount is updated using a prepared statement that takes the bid ID and new amount from a JSON payload.
+
+Code-Specific Questions
+Q10: Explain the CSS styling in confirmation.php.
+A10: The CSS styles the body to center the content and styles the confirmation container with a white background, padding, border radius, and box shadow.
+
+Q11: What does the logout.php file do?
+A11: It destroys the current user session, effectively logging the user out.
+
+User Management Questions
+Q12: How do you handle user login in login_handler.php?
+A12: The script checks the provided email and password against the database and starts a session if the credentials are correct.
+
+Q13: How do you display user-specific information on the profile page?
+A13: User-specific information is fetched from the database using the email stored in the session and displayed on the profile page.
+
+Additional Questions
+Q14: How do you handle file uploads in your project?
+A14: File uploads are handled by checking the file type, size, and ensuring the file is an actual image before storing it in a specific directory.
+
+Q15: How do you display search results for auctions?
+A15: Search results are displayed by querying the auctions table with a search term and displaying the results on the search results page.
+
+Q16: How do you ensure data integrity in your database?
+A16: By using foreign keys, constraints, and transactions to ensure data integrity.
+
+Q17: How do you handle errors in your project?
+A17: Errors are handled using try-catch blocks and by checking the success of database operations.
+
+Q18: How do you redirect users after certain actions?
+A18: Users are redirected using the header() function in PHP.
+
+Q19: How do you validate user input in your forms?
+A19: User input is validated by checking for empty fields and ensuring the data meets certain criteria before processing it.
+
+Q20: How do you handle different user roles in your project?
+A20: Different user roles can be handled by storing role information in the user table and checking the role before allowing access to certain functionalities.
+These questions and answers should help you prepare for a comprehensive viva based on your vehicle auction system project.

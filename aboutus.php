@@ -93,12 +93,12 @@
 </head>
 <body>
     <header>
-    <h1>About AuctionPro</h1>
+    <h1>About AuctionPlatform</h1>
     </header>
 
     <main>
         <section class="about-section">
-            <h2>Welcome to AuctionPro</h2>
+            <h2>Welcome to AuctionPlatform</h2>
             <p>We are dedicated to providing the best vehicle auction services in the industry. Our team is composed of highly skilled professionals who are passionate about what they do. We believe in innovation, integrity, and excellence.</p>
         </section>
 
@@ -112,12 +112,12 @@
 
             <div class="faq-item">
                 <div class="faq-question">How can I contact you?</div>
-                <div class="faq-answer">You can contact us via email at contact@auctionpro.com or call us at (123) 456-7890.</div>
+                <div class="faq-answer">You can contact us via email at contact@auctionplatform05.com or call us at (123) 456-7890.</div>
             </div>
 
             <div class="faq-item">
                 <div class="faq-question">Where are you located?</div>
-                <div class="faq-answer">We are located at 123 Main Street, Anytown, USA.</div>
+                <div class="faq-answer">We are located at 123 Main Street, Madurai-09,Tamilnadu, India.</div>
             </div>
         </section>
     </main>
